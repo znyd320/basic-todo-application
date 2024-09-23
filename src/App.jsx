@@ -5,14 +5,14 @@ function App() {
 
   const [runningTodo, setRunningTodo] = useState([
     {
-      content: "Learn React",
+      content: "Learn PHP",
       id: Math.random().toString(),
     },
   ]);
 
   const [completedTodo, setCompletedTodo] = useState([
     {
-      content: "Learn PHP",
+      content: "Learn React",
       id: Math.random().toString(),
     },
   ]);
